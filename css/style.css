@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+    margin: 0px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+header{
+    height: 20%;
+    background-image: url(../images/woonplaats-mob.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body,html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+#div-top{
+    display: flex;
+    height: 70%;
+    min-height: 300px;
+}
+/*#div-left{
+    
+}*/
+#div-right{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 40, 175);
+}
+h3{
+    text-align: center;
+}
+article.p{
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.artimg{
+    height: 25%;
+    width: 25%;
+    margin: 3%;
+}
+footer{
+    background-color: cornflowerblue;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+#p-footer{
+    margin-left: 20%;
+    opacity: 0.4;
+}
+@media only screen and (min-width: 600px) {
+    #div-right{
+        flex-direction: row;
+    }
+    #div-top{
+        height: 70%;
+    }
+}
