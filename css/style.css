@@ -56,16 +56,22 @@ body{
 }
 #div-top{
     display: flex;
+    flex-direction: column;
     height: 70%;
     min-height: 300px;
 }
-/*#div-left{
-    
-}*/
+#div-left{
+    height: 30%;
+}
 #div-right{
     display: flex;
     flex-direction: column;
     background-color: rgb(42, 40, 175);
+    height: 70%;
+
+}
+.div-mob{
+    width: 100%;
 }
 h3{
     text-align: center;
@@ -80,6 +86,8 @@ article.p{
     height: 25%;
     width: 25%;
     margin: 3%;
+    max-width: 125px;
+    max-height: 125px;
 }
 footer{
     background-color: cornflowerblue;
@@ -94,8 +102,20 @@ footer{
 @media only screen and (min-width: 600px) {
     #div-right{
         flex-direction: row;
+        width: 75%;
+        height: 100%;
+    }
+    #div-left{
+        width: 16.66%;
+        height: 100%;
     }
     #div-top{
         height: 70%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .artimg{
+        max-width: none;
+        max-height: none;
     }
 }
